@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: beige;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: auto;
+}
+.table {
+    display: block;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    overflow: hidden;
+}
+td {
+    width: 100%;
+    height: 100%;
+}
+.product-img {
+    width: 100%;
+    height: 100%;
+    
+}
+tr {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 50%;
+}
+.product-description {
+    margin-left: 10px;
+}
+.perfume {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: left;
+    letter-spacing: 7px;
+    color: rgba(96, 96, 96, 0.5);
+    font-weight: 500;
+}
+.artist {
+    font-weight: bold;
+    font-size: 40px;
+}
+.bio {
+    font-size: 30px;
+}
+.price {
+    margin-bottom: 10px;
+    color: teal;
+    font-weight: 900;
+    font-size: 30px;
+}
+.old-price {
+    text-decoration: line-through;
+    padding-left: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+.perfume, .artist, .bio, .price, button {
+    margin-left: 10px;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px 45px;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    border: none;
+}
+button img {
+    margin-right: 5px;
+}
